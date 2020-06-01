@@ -11,8 +11,10 @@ let secondArr = document.querySelectorAll('.second');
 let onlyInOrdered = document.querySelectorAll('ol .third');
 
 // 5.
-// Commented out so line 31 will work
-// container1.innerText = "Hello!";
+container1.innerHTML += "Hello!";
+
+// Also works but interferes with Question 10.
+// container1.innerText = "Hello!"; 
 
 // 6. 
 let addMainClassToFooter = document.querySelectorAll("div.footer")[0];
