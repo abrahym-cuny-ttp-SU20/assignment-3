@@ -38,7 +38,8 @@ let olLi = document.querySelectorAll('ol li');
 for(let i = 0; i < olLi.length; ++i)
 	olLi[i].style.backgroundColor = "green";
 
-// 13. 
+// 13. 	
+document.querySelector("body").removeChild(addMainClassToFooter);
 
 console.log(container1);
 console.log(container2);
